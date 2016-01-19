@@ -1,0 +1,8 @@
+COPY START	1000
+MOV  R0 0         
+MOV  R1 10        
+ADD  R0 R0 R1
+SUBS R1 R1 1
+BNE  1
+B    halt           
+$	 END	START
